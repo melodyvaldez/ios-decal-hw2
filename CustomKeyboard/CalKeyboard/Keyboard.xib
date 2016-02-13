@@ -207,6 +207,9 @@
                     <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                     <state key="normal" title="rtn"/>
+                    <connections>
+                        <action selector="didTapButton:" destination="-1" eventType="touchUpInside" id="B0E-Oq-osn"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKx-8E-hNb">
                     <rect key="frame" x="299" y="105" width="45" height="45"/>

@@ -77,6 +77,8 @@ class KeyboardViewController: UIInputViewController {
                     proxy.deleteBackward()
                 case "space":
                     proxy.insertText(" ")
+                case "rtn":
+                    proxy.insertText("\n")
                 default:
                     proxy.insertText("")
             }
